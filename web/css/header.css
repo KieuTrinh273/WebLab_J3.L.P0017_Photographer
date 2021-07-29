@@ -1,0 +1,107 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Jun 27, 2021, 10:07:37 PM
+    Author     : DELL
+*/
+body{
+    font-family: sans-serif;
+    margin: 0;
+    color: white;
+}
+.top-nav{
+ background-color: #303030;
+    font-size: 16px;
+    height: 40px;
+    padding: 0;
+    margin: 0;
+}
+.nav-inner{
+    height: 40px;
+    width: 65%;
+    margin: 0 auto;
+}
+.nav-inner ul{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+.nav-inner li{
+    line-height: 22px;
+    padding: 0 0 0 1px;
+    float: left;
+    border-left: 1px grey solid;
+    border-image: linear-gradient(to bottom, grey, transparent) 30%;
+}
+.nav-inner ul li a{
+    display: inline-block;
+    color: #fff;
+    text-decoration: none;
+    padding: 0 15px;
+    line-height: 40px;
+}
+a:active{
+    font-weight: bold;
+}
+
+.title-block{
+    background-color: #722f31;
+    padding: 15px 0 30px;
+    font-family: serif;
+}
+.title-block-inner{
+    width: 65%;
+    margin: 0 auto;
+}
+.logo{
+    display: inline-block;
+    background-image: url(../images/logo1.png);
+    background-repeat: no-repeat;
+    width: 85px;
+    height:90px;
+    background-size: 85px;
+    float: left;
+    padding-bottom: 2px;
+    margin: 2px 16px 0 0;
+}
+.title{
+    font-size: 47px;
+    font-weight: 400;
+}
+.subtitle{
+    font-size: 22px;
+}
+.activeMenu{
+    font-weight: bold;
+}
+@media screen and (max-width: 1000px) {
+    .nav-inner {
+        width: 97%;
+    }
+    .title-block-inner{
+        width: 97%;
+    }
+}
+/*@media screen and (max-width: 720px) {
+    .content {
+        width: 97%;
+        display: block
+    }
+    .left{
+        width: 100%;
+        padding: 1px;
+        margin: 0;
+    }
+    .right{
+        width: 100%;
+        padding: 1px;
+        margin: 0;
+    }
+    .gallery{
+        display: block;
+        width: 100%;
+    }
+}*/

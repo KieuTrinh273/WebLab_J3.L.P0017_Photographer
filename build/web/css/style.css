@@ -1,0 +1,233 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Jun 28, 2021, 1:16:04 PM
+    Author     : DELL
+*/
+
+body,html{
+    background-image: url(../images/kaleidoscope.png);
+    background-color: #aa4043;
+}
+.container{
+    
+}
+.content{
+    margin: 0 auto;
+    width: 65%;
+    display: flex;
+}
+.left{
+    padding: 30px 0px 44px;
+    width: 75%;
+}
+
+.contact-image{
+    padding-bottom: 22px;
+}
+.contact-image img{
+    width: 100%;
+}
+.contact-image p{
+    font-style: italic;
+    padding: 6px 1px;
+    font-size: 14px;
+    margin:0;
+    font-weight: lighter;
+}
+.list-gallery ul{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 0;
+}
+.span4{
+    width: 32%;
+}
+.span4 img{
+    width: 100%;
+    height: 160px;
+    object-fit: cover;
+}
+.span4 a{
+    text-decoration: underline;
+    font-size: 22px;
+    font-weight: lighter;
+    font-family: serif;
+    color: white;
+}
+p{
+    font-size: 17px;
+    font-weight: lighter;
+}
+
+
+.page{
+    margin-top: 30px;
+    padding-bottom: 5px;
+    text-align: center;
+}
+.page a{
+    color: white;
+    text-decoration: none;
+    padding: 2px;
+    border: 1px solid white;
+}
+.clicked{
+    font-weight: bold;
+    background-color: blue;
+    pointer-events: none;
+}
+
+.my-infor .title{
+    font-family: serif;
+    font-size: 28px;
+    color: #fff;
+    padding: 9.6px 0px;
+}
+
+.infor-content{
+    padding: 11px 0px 22px;
+    margin: 0px;
+    font-size: 16px;
+}
+.right{
+    width: 25%;
+    margin-left: 22px;
+    padding: 30px 0px 22px;
+}
+@media screen and (max-width: 1000px) {
+    .content {
+        width: 97%;
+    }
+}
+@media screen and (max-width: 720px) {
+    .content {
+        width: 97%;
+        display: block
+    }
+    .left{
+        width: 100%;
+        padding: 1px;
+        margin: 0;
+    }
+    .right{
+        width: 100%;
+        padding: 1px;
+        margin: 0;
+    }
+    .gallery{
+        display: block;
+        width: 100%;
+    }
+}
+
+
+/*gallery detail*/
+
+/*.all-images ul:last-child{
+    display: none;
+}*/
+.all-images{
+    width: 100%;
+    margin-top: 22px;
+}
+.galley-images{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 0;
+    margin-top: 0;
+    margin-bottom: 11px;
+}
+.other-list-gallery{
+    padding-left: 0;
+}
+.other-list-gallery li{
+    display: inline-block;
+    width: 24%;
+    height: 160px;
+    box-shadow: 0px 15px 15px #722f31;
+    border-radius: 50%;
+    margin: 0 5px 11px 0; 
+}
+.galley-images li{
+    width: 23%;
+    height: 160px;
+    box-shadow: 0px 15px 15px #722f31;
+    border-radius: 50%;
+    
+}
+.each-image{
+    height: 160px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    border-radius: 5px;
+    padding: 0px 8px;
+}
+.each-image img{
+    width: 100%;
+    height: 95px;
+    object-fit: cover;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    
+}
+
+.gallery-title{
+    padding: 9.6px 0px;
+   
+}
+.gallery-title h1{
+    font-family: serif;
+    font-weight: lighter;
+    margin: 0;
+}
+
+/*slideshow*/
+
+/* Slideshow container */
+.slideshow-container {
+  height: 487px;
+  position: relative;
+  margin: 0px;
+  padding: 12px 50px;
+  background-color: black;
+}
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+.mySlides img{
+    width: 100%;
+    height: 487px;
+    object-fit: cover;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 45%;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+}
+.prev {
+  left: 0;
+}
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: whitesmoke;
+  color: black;
+}
+

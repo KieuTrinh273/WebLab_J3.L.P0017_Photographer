@@ -1,0 +1,33 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Jul 14, 2021, 8:48:34 AM
+    Author     : DELL
+*/
+.contact h1{
+    margin: 0;
+    font-weight: lighter;
+    font-family: serif;
+}
+.contact-infor{
+    margin: 22px 0px;
+}
+.contact-infor .title h4{
+    font-weight: lighter;
+    font-family: serif;
+    font-size: 22px;
+    margin-bottom: 11px;
+}
+td a{
+    text-decoration: none;
+    color: white;
+}
+.map iframe{
+    width: 100%;
+    height: 512px;
+    border: 0;
+    margin-top: 22px;
+}
